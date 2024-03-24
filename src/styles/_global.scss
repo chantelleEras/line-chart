@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: $text-color;
+  margin: 0;
+  padding-bottom: 80px;
+}
+
+input,
+select {
+  height: 35px;
+  min-width: 150px;
+  background: #fff;
+  border: $input-border;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+  background: $button-color;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 22px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
